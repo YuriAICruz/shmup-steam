@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6491757f77bef6f469c9e0cde3972354, type: 3}
+  m_Name: ProjectInstaller
+  m_EditorClassIdentifier: 
+  inputSettings:
+    useMouse: 1
+    UiInputs:
+    - description: Move Up
+      key: 1101000077000000
+      action: 10
+      useAxis: 0
+      axis: 
+      cap: 0.1
+      constantCapture: 0
+    - description: Move Down
+      key: 1201000061000000
+      action: 11
+      useAxis: 0
+      axis: 
+      cap: 0.1
+      constantCapture: 0
+    - description: Accept
+      key: 0f0100000d00000020000000130100004b010000
+      action: 12
+      useAxis: 0
+      axis: 
+      cap: 0.1
+      constantCapture: 0
+    - description: Cancel
+      key: 1b000000140100004a010000
+      action: 13
+      useAxis: 0
+      axis: 
+      cap: 0.1
+      constantCapture: 0
+    GameInputs:
+    - description: Shoot
+      key: 430100000f0100004e0100004c010000
+      action: 30
+      useAxis: 1
+      axis: TriggerL
+      cap: 0.1
+      constantCapture: 0
+    - description: Rapid Fire
+      key: 45010000000100004d0100004f010000
+      action: 31
+      useAxis: 0
+      axis: 
+      cap: 0.1
+      constantCapture: 1
+    - description: Dodge
+      key: 20000000060100004a010000
+      action: 32
+      useAxis: 1
+      axis: TriggerR
+      cap: 0.1
+      constantCapture: 0
+    - description: Bomb
+      key: 44010000040100004b01000054010000
+      action: 33
+      useAxis: 0
+      axis: 
+      cap: 0.1
+      constantCapture: 0
+  scoreSettings:
+    baseHitScore: 1
+    baseKillScore: 10
+    baseDashKillScore: 18
+    baseComboScoreStep: 18
+    baseDashReflectScore: 1
+    maxCombo: 8
+    comboDuration: 2.4
+  debug: 0

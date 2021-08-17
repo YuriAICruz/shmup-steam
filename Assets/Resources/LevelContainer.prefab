@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4251004615847326533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3035807038199930399}
+  - component: {fileID: 8676287042393600843}
+  - component: {fileID: 4279290793176334424}
+  m_Layer: 0
+  m_Name: LevelContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3035807038199930399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251004615847326533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0832139, y: -0.13658227, z: -11.37207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8676287042393600843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251004615847326533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08eca9f7688a0a24685b89133b020c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers: []
+  _installerPrefabs: []
+  _autoRun: 1
+  _kernel: {fileID: 0}
+--- !u!114 &4279290793176334424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251004615847326533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347a9b12b5a82254d812fbb18b01d30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  genericBullet: {fileID: 4554025876636708030, guid: 5fa78d154c88c804cb5bc67f945b080c,
+    type: 3}
+  genericExplosion: {fileID: 514645970426374184, guid: 860f300517fd17c4cbff61022bd2eac7,
+    type: 3}
+  genericMovingEnemy: {fileID: 6546774965595228442, guid: 45592d09e1b2f11488db43f39e05165a,
+    type: 3}
+  genericPowerUp: {fileID: 6425590922093304531, guid: 9a228f663b2f4c74d88896afd6902c50,
+    type: 3}
+  health: {fileID: 3604161656250604544, guid: bceecd3e1449c2e4597c8bba5b006b35, type: 3}
+  life: {fileID: 3604161656250604544, guid: 79c0d8bd74f577a48a4ac6e716e41b40, type: 3}
+  levelSettings:
+    cameraMovementType: 0
+    cameraDirection: {x: 0, y: 1, z: 0}
+    infinityLives: 1
+    maxLives: 3
+    maxShipsPool: 24
+    maxPowerUpsPool: 4
+    maxBulletsPool: 2048
+    restartDelay: 3
+    playerShip: 0
+  startingSectorSettings:
+    uid: 0
+    position: {x: 0, y: 0, z: 0}
+    cameraSpeed: 4
+    cameraFollowPoints: []
+    waitToEnd: 0
+    spawner: {fileID: 0}
+    endCameraSpeed: 2

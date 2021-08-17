@@ -1,0 +1,15 @@
+{
+    "name": "LevelDesignEditor",
+    "references": [
+        "GUID:af6b891a13d39614ea54f8508c4537d7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
