@@ -1,0 +1,3 @@
+[submodule "Packages/Splines"]
+	path = Packages/Splines
+	url = git@github.com:YuriAICruz/Unity-Splines.git
